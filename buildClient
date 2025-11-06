@@ -1,0 +1,5 @@
+#!/bin/bash
+
+f1="src/client/main.vala"
+
+valac "$f1" -o out/client

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+f1="src/server/main.vala"
+
+valac "$f1" -o out/server
